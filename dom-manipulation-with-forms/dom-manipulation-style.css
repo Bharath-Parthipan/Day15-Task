@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background: url(./assets/webp/pizzaBg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orginal {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.form-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container-wrapper {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+.form-card {
+    height: 500px;
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 40px 0px;
+}
+
+.form-card:hover {
+    box-shadow: 0px 0px 20px #36A1D4;
+}
+
+.btn {
+    padding: 6px 20px;
+    background-color: #36A1D4;
+    border: unset;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #77BFE2;
+}
+
+.table-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table:hover {
+    box-shadow: 0px 0px 20px #36A1D4;
+}
+
+table,
+th,
+td {
+    border: 2px solid white;
+    backdrop-filter: brightness(0.5);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    color: #36A1D4;
+}
+
+td {
+    color: white;
+}
